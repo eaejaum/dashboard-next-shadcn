@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Chart } from "@/components/chart";
 import {
   Card,
   CardContent,
@@ -74,7 +74,7 @@ export default function Home() {
       </section>
 
       <section className="mt-4 flex flex-col md:flex-row gap-4">
-      ...
+        <Chart/>
       </section>
     </main>
   );
